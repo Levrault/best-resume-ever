@@ -1,71 +1,88 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Luc-Frédéric
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Langis
+about: De retour après avoir travaillé 8 ans en France, je reviens à la maison. Développeur passionné 
+  de technologie Front-End le jour et développeur d'application et de jeux video FOSS la nuit. 
+position: Senior React Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1992
+  location: Amqui, Qc, Canada
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Finalcad
+  position: Senior React Developer
+  timeperiod: Depuis Mai 2020
+  description: Création et maintabilité d'une super-app pour le domaine du BEP
+  Stack: React, Redux, Immutable, Re-select, Jest, Material-UI, Webpack, ES6, Github, Docker
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Splio
+  position: Software Development Engineer - Front End
+  timeperiod: Oct 2018 - Mai 2020
+  description: Migration de PERL à une SPA en React. Création de micro-service en GO.
+  Stack: React, Redux, Re-select, Jest, GO, Webpack, ES6, Gitlab, Docker
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Ekino
+  position: Front-End Engineer
+  timeperiod: Juin 2016 - Sept 2018
+  description: Réalisation de divers projets sur des sites à forte affluence (Renault, MyCanal)
+  Stack: React, Redux, Jest, SASS, PostCSS, Webpack, ES6, Gitlab, Docker
+
+- company: BlackCover (Ad6media)
+  position: Full-Stack Developer
+  timeperiod: Nov 2012 - Mai 2016
+  description: Création d'un framework maison pour la gestion d'encart publicitaire
+  Stack: JavaScript, CSS, PHP
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: BAC
+  timeperiod: 2012 - 2015
+  description: BAC en Informatique à distance
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: DEC
+  timeperiod: 2009 - 2012
+  description: Technique de l'informatique
 
 # skill level goes 0 to 100
 skills:
+- name: React & Redux
+  level: 99
 - name: HTML5
   level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
+- name: GIT
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: CSS3
+  level: 90
+- name: JavaScript
+  level: 99
+- name: GO
+  level: 50
+- name: Docker
+  level: 49
+- name: Godot
+  level: 70
+knowledge: Unity, Lu, C#
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Levrault's dialogue editor
+  platform: Godot
+  timeperiod: August 2020
+  description: Un outil permettant la création et la gestion de dialogues à embranchment pour mes jeux vidéo
+  url: https://github.com/Levrault/levrault-dialogue-editor
+
+- name: Maximilien Adventure
+  platform: Godot
+  timeperiod: August 2019 - Mai 2020
+  description: Jeux vidéo 2D destiné à mon neveu de 5 ans
+  url: https://github.com/Levrault/godot-maximilien-adventure
+
+- name: llangis.xyz
+  platform: React (gatsbyjs)
+  timeperiod: November 2018
+  description: Blog
+  url: https://llangis.xyz/
 
 hobbies:
 - name: Video Games
@@ -76,18 +93,13 @@ hobbies:
   iconClass: fa fa-pencil
   url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
-
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: lucf.langis@gmail.com
+  phone: 1-418-629-5470
+  street: 140 des pins
+  city: Amqui
+  website: llangis.xyz
+  github: levrault
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: fr
 `
