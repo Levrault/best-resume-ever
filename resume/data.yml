@@ -3,9 +3,9 @@ name:
   first: Luc-Frédéric
   middle:
   last: Langis
-about: De retour après avoir travaillé 8 ans en France, je reviens à la maison. Développeur passionné 
-  de technologie Front-End le jour et développeur d'application et de jeux video FOSS la nuit. 
-position: Senior React Developer
+about: Fort d'une expérience de 8 ans sur le marché européen, je reviens au Québec en mai 2021. Développeur passionné 
+  de technologies Front-End le jour et de jeux video la nuit. 
+position: Senior React Developer avec 8 ans d'expérience
 
 birth:
   year: 1992
@@ -14,14 +14,14 @@ birth:
 experience:
 - company: Finalcad
   position: Senior React Developer
-  timeperiod: Depuis Mai 2020
-  description: Création et maintabilité d'une super-app pour le domaine du BEP
+  timeperiod: Mai 2020 - Mai 2021
+  description: Création et maintenabilité d'une super-app pour le domaine du BEP
   Stack: React, Redux, Immutable, Re-select, Jest, Material-UI, Webpack, ES6, Github, Docker
 
 - company: Splio
   position: Software Development Engineer - Front End
   timeperiod: Oct 2018 - Mai 2020
-  description: Migration de PERL à une SPA en React. Création de micro-service en GO.
+  description: Migration d'une stack PERL à React et création de microservices en GO
   Stack: React, Redux, Re-select, Jest, GO, Webpack, ES6, Gitlab, Docker
 
 - company: Ekino
@@ -30,10 +30,10 @@ experience:
   description: Réalisation de divers projets sur des sites à forte affluence (Renault, MyCanal)
   Stack: React, Redux, Jest, SASS, PostCSS, Webpack, ES6, Gitlab, Docker
 
-- company: BlackCover (Ad6media)
+- company: BlackCover
   position: Full-Stack Developer
   timeperiod: Nov 2012 - Mai 2016
-  description: Création d'un framework maison pour la gestion d'encart publicitaire
+  description: Création d'un framework maison pour la gestion d'encarts publicitaires
   Stack: JavaScript, CSS, PHP
 
 education:
@@ -47,7 +47,9 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: React & Redux
+- name: React
+  level: 99
+- name: Redux
   level: 99
 - name: HTML5
   level: 99
@@ -63,20 +65,17 @@ skills:
   level: 49
 - name: Godot
   level: 70
-knowledge: Unity, Lu, C#
 
 projects:
-- name: Levrault's dialogue editor
+- name: LE dialogue editor
   platform: Godot
   timeperiod: August 2020
-  description: Un outil permettant la création et la gestion de dialogues à embranchment pour mes jeux vidéo
+  description: Outil permettant d'exporter un arbre de dialogue en fichier JSON
   url: https://github.com/Levrault/levrault-dialogue-editor
 
-- name: Maximilien Adventure
-  platform: Godot
-  timeperiod: August 2019 - Mai 2020
-  description: Jeux vidéo 2D destiné à mon neveu de 5 ans
-  url: https://github.com/Levrault/godot-maximilien-adventure
+- name: Jeux video
+  platform: Unity, Godot, Pico8
+  url: https://levrault.itch.io/
 
 - name: llangis.xyz
   platform: React (gatsbyjs)
